@@ -175,8 +175,10 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 /* Main blocks
 ---------------------------------------- */
 #wrap {
-	padding: 0 20px;
+	padding: 0 12px;
 	min-width: 650px;
+	max-width: 960px;
+	margin: 0 auto;
 }
 
 #simple-wrap {
