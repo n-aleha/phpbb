@@ -17,8 +17,6 @@ body {
 }
 
 #wrap {
-	border: none;
-	box-shadow: none;
 	min-width: 300px;
 	padding: 0 5px;
 }

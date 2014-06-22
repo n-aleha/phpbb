@@ -59,9 +59,8 @@ body {
 	font-size: 10px;
 	line-height: normal;
 	margin: 0;
-	padding: 12px 0;
+	padding: 0;
 	word-wrap: break-word;
-	
 }
 
 h1 {
@@ -176,31 +175,10 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 /* Main blocks
 ---------------------------------------- */
 #wrap {
-	border: 1px solid transparent;
-	border-radius: 15px;
 	min-width: 650px;
 	max-width: 1152px;
 	margin: 0 auto;
-	padding: 12px 24px;
-}
-
-@media only screen and (max-width: 1200px), only screen and (max-device-width: 1200px)
-{
-	body {
-		padding: 0;	
-	}
-
-	#wrap {
-		border: none;
-		border-radius: 0;
-	}
-}
-
-@media only screen and (max-width: 900px), only screen and (max-device-width: 900px)
-{
-	#wrap {
-		padding: 12px;
-	}
+	padding: 12px;
 }
 
 #simple-wrap {
